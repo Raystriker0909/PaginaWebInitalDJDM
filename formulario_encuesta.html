@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Temático de Initial D</title>
+  <link rel="stylesheet" href="css/stylencuesta.css">
+
+</head>
+<body>
+    <div class="container">
+      <h1>Formulario de Registro Temático de Initial D</h1>
+      <form onsubmit="guardadoCorrecto()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+  
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+  
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" required>
+  
+        <label for="auto">Auto favorito:</label>
+        <select id="auto" name="auto">
+          <option value="Toyota AE86">Toyota AE86</option>
+          <option value="Mazda RX-7">Mazda RX-7</option>
+          <option value="Nissan Skyline GT-R">Mazda RX-7 FC3S</option>
+        </select>
+  
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  
+    <script>
+      function guardadoCorrecto() {
+        alert('¡Formulario enviado y guardado correctamente!');
+        window.close();
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+#TakumiFujiwara{
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+#RyosukeTakajashi{
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#KeisukeTakajashi{
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.EstiloTabla{
+  font-weight: bold;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+#map-container{
+  width: 80%;
+  margin: 0 auto;
+}
+.interiordis {
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out; 
+}
+.interiordis.show{
+  opacity: 1;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  width: 45%; /* Ancho de cada lista */
+}
